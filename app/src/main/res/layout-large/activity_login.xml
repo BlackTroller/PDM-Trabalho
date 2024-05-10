@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/Label"
+            android:layout_width="390dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/Login"
+            android:textSize="50sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/nEmail"
+            android:layout_width="790dp"
+            android:layout_height="71dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:hint="@string/user_email"
+            android:inputType="textEmailAddress"
+            android:lines="1"
+            android:selectAllOnFocus="true"
+            android:textStyle="bold"
+            android:textSize="45sp"
+            android:autofillHints="" />
+
+        <EditText
+            android:id="@+id/nPassword"
+            android:layout_width="790dp"
+            android:layout_height="71dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:lines="1"
+            android:selectAllOnFocus="true"
+            android:textStyle="bold"
+            android:textSize="45sp"
+            android:autofillHints="" />
+
+        <Button
+            android:id="@+id/nLogin"
+            android:layout_width="390dp"
+            android:layout_height="81dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:text="@string/Login1"
+            android:textStyle="bold"
+            android:textSize="35sp"/>
+
+        <TextView
+            android:id="@+id/nRegister"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:text="@string/RegisterLabel"
+            android:textSize="35sp"/>
+    </LinearLayout>
+</LinearLayout>
