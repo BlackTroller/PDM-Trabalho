@@ -41,7 +41,7 @@
         -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyDxqRd2lydGBbcq1oP0YzQW9jg1c3rsO_U" />
+            android:value="GOOGLE_API_KEY" />
 
         <uses-library
             android:name="com.google.android.wearable"
